@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Use JSP Scriptlet and JSP Expression in application</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Customer discount</h1>
+        <form action ="processCustomer.jsp" method="post">
+            
+            <label>Customer Code:</label>
+            <input type ="text" name="cust_no" placeholder="Key-in Customer code"><br>
+            
+            <label>Quantity:</label>
+            <input type="number" name="qty" placeholder="key-in quantity"><br/>
+
+            <label>Customer Type:</label>
+            <input type ="radio" name="ct" value="1">
+            
+              <label>Normal Customer:</label>
+            <input type ="radio" name="ct" value="2">
+            
+            <label>Privilege Customer</label><br>
+            <input type ="submit" name="Submit">
+            <input type="reset" name="cancel">
+        </form>
+
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Use JSP Scriplet and JSP Expression in application</h1>
+        <h2 style= "color:purple; font-family: Arial">Customer discount</h2>
+
+        <form method ="POST" action="processCurrency.jsp">
+            
+             <label>Amount(in RM)</label>
+                     &nbsp;&nbsp;&nbsp;&nbsp;
+                     <input type="text" id="rm" name="rm"  placeholder="(in RM)">
+                     <br><br>
+                     
+                     
+                   
+                     <label>Convert to </label>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <select name="currency" id="currency">
+                         <option value="1">USD</option>
+                         <option value="2">Pound Sterling</option>
+                         <option value="3">Euro</option>
+                     </select>
+                        
+                         <br><br><br>
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Cancel">
+    </body>
+</html>
